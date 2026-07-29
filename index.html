@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uncharted | El legado de Nathan Drake</title>
+  <meta name="description" content="Sitio web dedicado a la saga de videojuegos Uncharted, creado como práctica de HTML5 y CSS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== ENCABEZADO / NAVEGACIÓN ===================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="brand">
+        <span class="brand-mark" aria-hidden="true">&#9670;</span>
+        UNCHARTED
+      </p>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#historia">La saga</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#recursos">Más información</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== SECCIÓN: INICIO / BIENVENIDA ===================== -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Diario de viaje &mdash; Cazador de fortunas</p>
+      <h1>Bienvenido a la ruta de <span class="highlight">Uncharted</span></h1>
+      <p class="hero-text">
+        Uncharted es una saga de videojuegos de acción y aventuras desarrollada por
+        <strong>Naughty Dog</strong> y publicada por PlayStation Studios. Sigue las
+        expediciones de <strong>Nathan Drake</strong>, un cazatesoros que recorre
+        selvas, templos olvidados y ciudades perdidas en busca de reliquias
+        históricas, combinando exploración, disparos en tercera persona,
+        acrobacias y una narrativa cinematográfica que marcó a toda una generación
+        de jugadores. Este sitio reúne su historia, imágenes, tráilers y enlaces
+        para conocer más sobre esta saga.
+      </p>
+      <a href="#historia" class="btn">Comenzar la expedición &darr;</a>
+    </div>
+  </section>
+
+  <!-- ===================== SECCIÓN: LA SAGA / DESARROLLO DEL TEMA ===================== -->
+  <section id="historia" class="content-section parchment">
+    <h2><span class="stamp">01</span> El mapa de la saga</h2>
+    <div class="historia-grid">
+      <article>
+        <h3>Drake's Fortune (2007)</h3>
+        <p>La primera entrega presentó a Nathan Drake en la búsqueda del legendario
+        botín de El Dorado, sentando las bases de la fórmula de la saga: tiroteos,
+        plataformas y puzles ambientales.</p>
+      </article>
+      <article>
+        <h3>Among Thieves (2009)</h3>
+        <p>Considerada una de las mejores secuelas de la historia de los videojuegos,
+        llevó a Drake tras las huellas de Marco Polo y la piedra de Cintamani por
+        Nepal y las montañas de Asia.</p>
+      </article>
+      <article>
+        <h3>A Thief's End (2016)</h3>
+        <p>El cierre de la trilogía original enfrentó a Nathan con su hermano Sam en
+        busca del tesoro pirata de Henry Avery, con gráficos y narrativa de
+        altísimo nivel para PlayStation 4.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== SECCIÓN: GALERÍA DE IMÁGENES (mín. 5) ===================== -->
+  <section id="galeria" class="content-section">
+    <h2><span class="stamp">02</span> Galería del explorador</h2>
+    <p class="section-intro">Fotografías y material promocional de la saga a lo largo de los años.</p>
+    <div class="gallery">
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Uncharted_logo.png" alt="Logotipo oficial de la saga Uncharted" loading="lazy">
+        <figcaption>Logotipo oficial de la saga</figcaption>
+      </figure>
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Uncharted%20Drake's%20Fortune%20for%20PS3%20(1296573048).jpg" alt="Carátula de Uncharted: Drake's Fortune para PS3" loading="lazy">
+        <figcaption>Uncharted: Drake's Fortune (2007)</figcaption>
+      </figure>
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Uncharted%20Drake's%20Fortune%20in%20Sony's%20booth%20(2279987164).jpg" alt="Stand de Uncharted Drake's Fortune en un evento de Sony" loading="lazy">
+        <figcaption>Presentación en un evento de Sony</figcaption>
+      </figure>
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nathan%20Drake%20ring.png" alt="Ilustración del anillo característico de Nathan Drake" loading="lazy">
+        <figcaption>El anillo, objeto icónico de Nathan Drake</figcaption>
+      </figure>
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Brasil%20Game%20Show%202014%20(15313852349).jpg" alt="Stand de la saga Uncharted en la Brasil Game Show 2014" loading="lazy">
+        <figcaption>Uncharted en la Brasil Game Show 2014</figcaption>
+      </figure>
+      <figure>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Uncharted%204%20(20138734128).jpg" alt="Material promocional de Uncharted 4: A Thief's End" loading="lazy">
+        <figcaption>Uncharted 4: A Thief's End (2016)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===================== SECCIÓN: VIDEOS (mín. 2) ===================== -->
+  <section id="videos" class="content-section parchment">
+    <h2><span class="stamp">03</span> Grabaciones de la expedición</h2>
+    <p class="section-intro">Tráilers oficiales de Uncharted 4: A Thief's End incrustados desde YouTube.</p>
+    <div class="video-grid">
+      <div class="video-wrapper">
+        <video controls preload="metadata"
+          <source src="videos/videostrailer-oficial.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de video HTML5.
+        </video>
+        <p class="video-caption">Tráiler oficial de Uncharted 4: A Thief's End</p>
+      </div>
+      <div class="video-wrapper">
+        <video controls preload="metadata" 
+          <source src="videos/gameplay.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de video HTML5.
+        </video>
+        <p class="video-caption">Gameplay de Uncharted 4: A Thief's End</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECCIÓN: ENLACES EXTERNOS (mín. 3) ===================== -->
+  <section id="recursos" class="content-section">
+    <h2><span class="stamp">04</span> Rutas para seguir explorando</h2>
+    <p class="section-intro">Estos enlaces amplían la información presentada en este sitio.</p>
+    <ul class="link-list">
+      <li>
+        <a href="https://es.wikipedia.org/wiki/Uncharted" target="_blank" rel="noopener noreferrer">
+          Wikipedia: artículo completo sobre la saga Uncharted
+        </a>
+      </li>
+      <li>
+        <a href="https://www.playstation.com/es-mx/games/uncharted-4-a-thiefs-end/" target="_blank" rel="noopener noreferrer">
+          Sitio oficial de PlayStation: Uncharted 4: A Thief's End
+        </a>
+      </li>
+      <li>
+        <a href="https://www.naughtydog.com/games/uncharted4" target="_blank" rel="noopener noreferrer">
+          Naughty Dog: estudio desarrollador de la saga
+        </a>
+      </li>
+    </ul>
+  </section>
+
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer class="site-footer">
+    <p>Sitio creado con fines educativos como práctica de HTML5 y CSS.</p>
+    <p>Uncharted es una marca registrada de Naughty Dog / Sony Interactive Entertainment. Sitio no oficial, sin fines de lucro.</p>
+  </footer>
+
+</body>
+</html>
